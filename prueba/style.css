@@ -21,12 +21,15 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10%;
+    margin: 10% 15%;
     justify-content: space-between;
 }
 
 .presentacion__contenido{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .presentacion__contenido__titulo{
@@ -34,11 +37,25 @@ body{
     font-family: "Krona One", serif;
 }
 
-.presentacion__contenido_texto{
+.presentacion__contenido__texto{
     font-size: 24px;
     font-family: "Montserrat", serif;
 }
 .presentacion__enlaces{
     display: flex;
     justify-content: space-between;
+}
+.presentacion__enlaces__link{
+    width: 280px;
+    background-color: #22d4fd;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+
+
 }
