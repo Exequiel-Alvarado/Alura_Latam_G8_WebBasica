@@ -7,6 +7,8 @@
 body{
     background-color: #000000;
     color: #ffff;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 
